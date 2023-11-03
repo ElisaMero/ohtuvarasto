@@ -1,3 +1,5 @@
 __psycache__
 .pytest_cache
 *.tmp
+.coverage
+htmlcov/
