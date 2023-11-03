@@ -52,7 +52,7 @@ class TestVarasto(unittest.TestCase):
     def test_saldon_ylimaaraisyys(self):
         self.varasto = Varasto(5, 10)
 
-        self.assertAlmostEqual(self.varasto.saldo, 5)
+        self.assertAlmostEqual(self.varasto.saldo, 6)
 
     def test_lisaa_varastoon_negatiivinen(self):
         self.assertAlmostEqual(self.varasto.lisaa_varastoon(-1), None)
